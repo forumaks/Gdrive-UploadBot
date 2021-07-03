@@ -16,9 +16,9 @@ class Config:
     # the download location, where the HTTP Server runs
     DOWNLOAD_DIRECTORY = "./DOWNLOADS"
 
-    G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", "771143287697-8grcpqo356ad20d3sd2agstm1c7bhrq8.apps.googleusercontent.com")
+    G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", "202264815644.apps.googleusercontent.com")
 
-    G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", "4OQKWcScXyYP_FxyXiGf76_a")
+    G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", "X4Z3ca8xfWDb1Voo-F9a7ZxJ")
     
     # Array to store users who are authorized to use the bot
     AUTH_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "791282056").split())
