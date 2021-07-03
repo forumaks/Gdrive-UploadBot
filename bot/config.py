@@ -3,15 +3,15 @@ import os
 class Config:
 
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "1817421715:AAHM4IuLJVWFAHvHVX3bSAmPtf7vN1Lb5UQ")
 
     # The Telegram API things
     # Get these values from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH", "")
+    APP_ID = int(os.environ.get("APP_ID", 2778129))
+    API_HASH = os.environ.get("API_HASH", "f512a6578eef2c155671e84354045cf4")
 
      # Sql Database url
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "postgres://nrbubqqqkwgssj:35707660203e87553fefb1fe98fe23767092790336d071353b9f5cd394992b2a@ec2-52-5-1-20.compute-1.amazonaws.com:5432/d7tl47imeib8oj")
 
     # the download location, where the HTTP Server runs
     DOWNLOAD_DIRECTORY = "./DOWNLOADS"
@@ -21,7 +21,7 @@ class Config:
     G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", "FxvbXbjuyr357e34fcj8")
     
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "791282056").split())
 
 
 class BotCommands:
